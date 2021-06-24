@@ -1,21 +1,24 @@
 body{
     height: min-content;
 }
+
 .h2-unico{
     margin: 0%;
     background-color: black;
     color: white;
 }
+
 h1{
     color: #a52a2a;
     float: left;
     position: relative;
-    margin-right: 10px;
-    
+    margin-right: 10px;  
 }
+
 h2,h3,h4 {
     font-style: italic;
 }
+
 h3,h4{
     color:darkblue ;
 }
@@ -27,6 +30,7 @@ img {
     border:  1px solid rgb(16, 11, 11);
     float: left;
 }
+
 .principal {
     color: darkblue;
     font-weight: bold;
