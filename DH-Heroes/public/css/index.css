@@ -3,38 +3,49 @@
     padding: 0%;
 }
 
+div{
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
 p{
     background-color: black;
     color: white;
     font-weight: bold;
-}
-
-button{
-    text-decoration: none;
-    
-    background-color: black;
-    color: blanchedalmond;
-    font-weight: bold;
-    margin: 10px;
-    border-radius: 5px;
-
-}
-
-button:hover{
-    text-decoration: none;
-    background-color: rgb(117, 112, 112);
-    color: rgb(32, 32, 30);
-    font-weight: bold;
-    border-radius: 5px;
-    margin: 10px;
+    margin-left: 10px;
 }
 
 body{
+
     height: min-content;
-    background-image: linear-gradient(60deg, #4e4b61 0, #524a5f 4.55%, #55495e 9.09%, #58485c 13.64%, #5b4859 18.18%, #5d4757 22.73%, #604654 27.27%, #614651 31.82%, #63464e 36.36%, #63464c 40.91%, #644649 45.45%, #644646 50%, #644643 54.55%, #634741 59.09%, #62483f 63.64%, #61483d 68.18%, #5f493b 72.73%, #5d4a3a 77.27%, #5b4b39 81.82%, #584c38 86.36%, #554d38 90.91%, #534e38 95.45%, #504f38 100%);
 }
 
-nav{
-    background-color: white;
-    border-bottom: 2px solid black;
+a{  
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+li{  
+    padding: 5px;
+    font-weight: bold;
+    background-color: #000;
+    margin: 10px 10px;
+    display:inline-block;
+    border-radius: 10px;
+}
+
+li:hover{
+    padding: 5px;
+    display:inline-block;
+    background-color: rgba(218, 57, 8, 0.411);
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    margin: 10px;
+}
+
+header{
+    background-image: url("https://www.wallpapertip.com/wmimgs/51-510951_fondos-para-paginas-web.jpg"); 
+    width:fit-content;
+    height: 500px;
 }

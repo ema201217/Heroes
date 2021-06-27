@@ -1,13 +1,13 @@
-*{
-    text-align: left;
-}
+
 body{
     height: min-content;
+    margin: 0;
+    background-image: url(http://www.solprof.com/sites/default/files/fondo-01.jpg);
     
 }
 
 .h2-unico{
-    margin: 0%;
+    
     background-color: black;
     color: white;
     text-align: center;
@@ -44,4 +44,12 @@ img {
 p{
     color: rgb(49, 42, 42);
     font-size: 1em;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    
+}
+section{
+    margin: 40px;
 }
