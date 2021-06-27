@@ -23,7 +23,6 @@ body{
 a{  
     color: white;
     text-decoration: none;
-    margin-left: 10px;
 }
 
 li{  
@@ -41,7 +40,7 @@ li:hover{
     background-color: rgba(218, 57, 8, 0.411);
     color: rgb(7, 7, 7);
     font-weight: bold;
-    margin: 10px;
+    margin: 10px 10px;
 }
 
 header{
