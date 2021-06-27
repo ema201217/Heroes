@@ -21,12 +21,13 @@ body{
 }
 
 a{  
+    display: block;
+    padding: 5px;
     color: white;
     text-decoration: none;
 }
 
 li{  
-    padding: 5px;
     font-weight: bold;
     background-color: #000;
     margin: 10px 10px;
@@ -35,7 +36,6 @@ li{
 }
 
 li:hover{
-    padding: 5px;
     display:inline-block;
     background-color: rgba(218, 57, 8, 0.411);
     color: rgb(7, 7, 7);
